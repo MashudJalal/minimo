@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: tahoma;
+}
+body{
+	
+}
+header{
+	padding: 50px 0;
+}
+.container-one{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a{
+	
+	padding: 5px 0;
+	display: block;
+}
+.logo img{
+
+}
+
+nav{
+	float: left;
+	width: 80%;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+
+}
+nav ul li a{
+	color: #A0A0A0;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	display: block;
+	transition-duration: .5s;
+}
+nav ul li a:hover{
+	color: #F0F0F0;
+	background: #000;
+}
+.banner-section{
+
+}
+.banner-section img{
+	width: 100%;
+	margin: auto;
+}
+.getaway-section{
+	padding: 70px 0;
+}
+.getaway-content h3{
+	color: #737171;
+	padding: 20px 0;
+}
+.getaway-content p{
+	color: #6c6c6c;
+	padding: 10px 0;
+	line-height: 25px;
+	padding-bottom: 30px;
+}
+.container-two{
+	width: 1000px;
+	margin: auto;
+}
+.getaway-content span{
+
+}
+.getaway-content span a{
+	text-decoration: none;
+	color: #BBB6B6;
+}
+.lifestyle-section{
+	padding: 70px 0;
+}
+.col-1-2{
+	width: 45%;
+	flex-basis: 45%;
+}
+.col-1-2 img{
+	width: 100%;
+	display: block;
+}
+.col-1-2 span{
+
+}
+.col-1-2 span a{
+	text-decoration: none;
+	color: #BBB6B6;
+	display: block;
+	padding-top: 30px;
+}
+.col-1-2 h3{
+	color: #737171;
+	padding: 20px 0;
+}
+.col-1-2 p{
+	color: #6c6c6c;
+	line-height: 25px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+footer{
+	background: #F0F0F0;
+	padding: 30px 0;
+}
+.copyright{
+	max-width: 30%;
+	flex-basis: 30%;
+}
+.copyright ul{
+	justify-content: flex-start;
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+}
+.copyright ul li {
+
+}
+.copyright ul li a{
+	text-decoration: none;
+	padding: 0 10px;
+	color: #2C0000;
+}
+.social{
+	max-width: 70%;
+	flex-basis: 70%;
+}
+.social ul{
+	justify-content: flex-end;
+	display: flex;list-style: none;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.social ul li {
+
+}
+.social ul li a{
+	background: #F0F0F0;
+	color: #000;
+	display: block;
+	margin: 5px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	transition-duration: .5s;
+}
+.social ul li a:hover{
+	border: 1px solid #000;
+	background: #000;
+	color: #F0F0F0;
+}
+li#padding{
+
+} 
+::selection{
+	background-color: #000;
+	color: #F0F0F0;
+}
